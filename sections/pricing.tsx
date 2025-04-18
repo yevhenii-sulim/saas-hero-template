@@ -3,7 +3,7 @@ import { plans } from '@/constants/plans'
 
 export default function Pricing() {
     return (
-        <>
+        <div className='max-w-7xl mx-auto'>
             <h2 className="text-4xl font-bold text-center mb-16 text-gray-900 dark:text-gray-50">Simple Pricing</h2>
             <div className="flex flex-col sm:flex-row justify-center gap-10">
                 {plans.map((plan, i) => (
@@ -17,6 +17,6 @@ export default function Pricing() {
                     </div>
                 ))}
             </div>
-        </>
+        </div>
     )
 }

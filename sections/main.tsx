@@ -8,6 +8,6 @@ interface Props {
 export default function Main({ children, fontFamily }: Props) {
 
     return (
-        <main className={`relative min-h-screen bg-white dark:bg-black text-gray-900 dark:text-white ${fontFamily}`}>{children}</main >
+        <main className={`bg-white dark:bg-black text-gray-900 dark:text-white ${fontFamily}`}>{children}</main >
     )
 }

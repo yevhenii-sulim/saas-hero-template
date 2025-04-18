@@ -3,7 +3,7 @@ import ButtonAction from '@/components/buttonAction'
 
 export default function SignUp() {
     return (
-        <>
+        <div className='max-w-7xl mx-auto'>
             <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-gray-50">Stay Updated</h2>
             <p className="mb-6 text-gray-700 dark:text-gray-200">Join our mailing list for product news and updates.</p>
             <form
@@ -20,6 +20,6 @@ export default function SignUp() {
                 />
                 <ButtonAction px={6} py={3}>Subscribe</ButtonAction>
             </form>
-        </>
+        </div>
     )
 }

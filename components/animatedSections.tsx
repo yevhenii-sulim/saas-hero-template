@@ -6,12 +6,10 @@ import SignUp from '@/sections/signUp';
 import Feedback from '@/sections/feedback';
 import Features from '@/sections/features';
 import GetStart from '@/sections/getStart';
-import { ThemeToggle } from '@/components/themeToggle';
 
 export default function AnimatedSections() {
     return (
         <>
-            <ThemeToggle />
             <motion.section
                 initial={{ opacity: 0, y: -30 }}
                 animate={{ opacity: 1, y: 0 }}

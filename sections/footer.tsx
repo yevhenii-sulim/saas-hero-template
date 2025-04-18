@@ -10,7 +10,7 @@ interface Props {
 
 export default function Footer({ children, fontFamily }: Props) {
   return (
-    <footer className={`px-6 py-16 text-center text-sm text-gray-500 bg-gray-100  dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700 ${fontFamily}`}>
+    <footer className={`mt-auto px-6 py-16 text-center text-sm text-gray-500 bg-gray-100  dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700 ${fontFamily}`}>
       {children}
       <div className="mt-8 flex justify-center gap-6 text-gray-500 dark:text-gray-400">
         <Social href="#">
