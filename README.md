@@ -68,6 +68,8 @@ You are not allowed to resell or redistribute the template.
 🛍️ Buy the Template
 Want the ZIP, updates, and official license?
 
+![Preview of the SaaS Hero Section Template](./public/preview.png)
+
 👉 Buy on Gumroad
 ```
 ````
